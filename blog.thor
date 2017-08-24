@@ -17,7 +17,7 @@ class New < Thor
       post.puts "layout: post"
       post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
       post.puts "comments: true"
-      post.puts "tags:"
+      post.puts "categories:"
       post.puts " -"
       post.puts "---"
     end
@@ -41,7 +41,7 @@ class New < Thor
       post.puts "layout: post"
       post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
       post.puts "comments: true"
-      post.puts "tags:"
+      post.puts "categories:"
       post.puts " -"
       post.puts "---"
     end
