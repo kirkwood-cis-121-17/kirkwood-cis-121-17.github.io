@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "command-line-practice"
+title: "Command Line Practice"
 comments: true
 categories:
  -
