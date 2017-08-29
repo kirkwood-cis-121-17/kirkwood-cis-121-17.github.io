@@ -51,3 +51,25 @@ VIM is our text editor
 * this time :w
 * now :q
 
+# Looking for files
+
+We can use the `find` command to search for files or directories
+
+`find ~/workspace "*.txt"`
+
+Find all the files in `~/workspace` that have a `.txt` extension.
+
+`grep -R Chris ~/workspace`
+
+Find all files in `~/workspace` that contain the text `Chris`
+
+# Exercise
+
+With a partner, clone the zoo workspace on cloud 9.
+
+There are a list of files that you need to figure out what to do with them.
+
+There is a `python` script you can run to help you figure out what to do. _you
+can also view the code to see what it does which would in turn tell you want to do_
+
+`python bin/check-zoo.py`
